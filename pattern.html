@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern Examples</title>
+    <style>
+        .pattern-checks-sm {
+            background-image: repeating-linear-gradient(45deg, currentColor 25%, transparent 25%, transparent 75%, currentColor 75%, currentColor), repeating-linear-gradient(45deg, currentColor 25%, transparent 25%, transparent 75%, currentColor 75%, currentColor);
+            background-position: 0 0, 10px 10px;
+            background-size: calc(2 * 10px) calc(2 * 10px);
+            width: 100px;
+            height: 100px;
+        }
+
+        .pattern-checks-md {
+            background-image: repeating-linear-gradient(45deg, currentColor 25%, transparent 25%, transparent 75%, currentColor 75%, currentColor), repeating-linear-gradient(45deg, currentColor 25%, transparent 25%, transparent 75%, currentColor 75%, currentColor);
+            background-position: 0 0, 25px 25px;
+            background-size: calc(2 * 25px) calc(2 * 25px);
+            width: 100px;
+            height: 100px;
+        }
+
+        .pattern-grid-sm {
+            background-image: linear-gradient(currentColor 1px, transparent 1px), linear-gradient(to right, currentColor 1px, transparent 1px);
+            background-size: 10px 10px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .pattern-grid-md {
+            background-image: linear-gradient(currentColor 1px, transparent 1px), linear-gradient(to right, currentColor 1px, transparent 1px);
+            background-size: 25px 25px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .pattern-dots-sm {
+            background-image: radial-gradient(currentColor 0.5px, transparent 0.5px);
+            background-size: calc(10 * 0.5px) calc(10 * 0.5px);
+            width: 100px;
+            height: 100px;
+        }
+
+        .pattern-dots-md {
+            background-image: radial-gradient(currentColor 1px, transparent 1px);
+            background-size: calc(10 * 1px) calc(10 * 1px);
+            width: 100px;
+            height: 100px;
+        }
+
+        .pattern-horizontal-lines-sm {
+            background-image: repeating-linear-gradient(0deg, currentColor, currentColor 1px, transparent 1px, transparent);
+            background-size: 10px 10px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .pattern-vertical-lines-md {
+            background-image: repeating-linear-gradient(to right, currentColor, currentColor 1px, transparent 1px, transparent);
+            background-size: 25px 25px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .pattern-diagonal-lines-lg {
+            background-image: repeating-linear-gradient(45deg, currentColor 0, currentColor 1px, transparent 0, transparent 50%);
+            background-size: 50px 50px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .pattern-zigzag-md {
+            background: linear-gradient(135deg, currentColor 25%, transparent 25%) -25px 0, linear-gradient(225deg, currentColor 25%, transparent 25%) -25px 0, linear-gradient(315deg, currentColor 25%, transparent 25%), linear-gradient(45deg, currentColor 25%, transparent 25%);
+            background-size: calc(2 * 25px) calc(2 * 25px);
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h3>Pattern Examples</h3>
+        <div class="pattern-checks-sm"></div>
+        <div class="pattern-checks-md"></div>
+        <div class="pattern-grid-sm"></div>
+        <div class="pattern-grid-md"></div>
+        <div class="pattern-dots-sm"></div>
+        <div class="pattern-dots-md"></div>
+        <div class="pattern-horizontal-lines-sm"></div>
+        <div class="pattern-vertical-lines-md"></div>
+        <div class="pattern-diagonal-lines-lg"></div>
+        <div class="pattern-zigzag-md"></div>
+    </section>
+</body>
+
+</html>

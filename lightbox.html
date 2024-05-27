@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Lightbox Example</title>
+    <link rel="stylesheet" href="colorbox.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=SF+Pro+Text:wght@400;600&display=swap">
+    <!-- Tailwind CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <!-- Flowbite -->
+    <link href="https://unpkg.com/flowbite@1.4.1/dist/flowbite.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="container mx-auto p-4">
+        <h3 class="text-2xl font-semibold mb-4">Two Individual Images</h3>
+        <div class="flex space-x-4">
+            <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-1.jpg" data-lightbox="example-1">
+                <img class="example-image rounded-lg shadow-md" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-1.jpg" alt="image-1" />
+            </a>
+            <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-2.jpg" data-lightbox="example-2" data-title="Optional caption.">
+                <img class="example-image rounded-lg shadow-md" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-2.jpg" alt="image-1" />
+            </a>
+        </div>
+
+        <hr class="my-8" />
+
+        <h3 class="text-2xl font-semibold mb-4">A Four Image Set</h3>
+        <div class="grid grid-cols-2 gap-4">
+            <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+                <img class="example-image rounded-lg shadow-md" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt="" />
+            </a>
+            <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-4.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard.">
+                <img class="example-image rounded-lg shadow-md" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-4.jpg" alt="" />
+            </a>
+            <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-5.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing.">
+                <img class="example-image rounded-lg shadow-md" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-5.jpg" alt="" />
+            </a>
+            <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-6.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close.">
+                <img class="example-image rounded-lg shadow-md" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-6.jpg" alt="" />
+            </a>
+        </div>
+    </section>
+
+    <section class="container mx-auto p-4">
+        <p class="text-lg">
+            For more information, visit <a class="text-blue-500 hover:underline" href="http://lokeshdhakar.com/projects/lightbox2/">http://lokeshdhakar.com/projects/lightbox2/</a>
+        </p>
+    </section>
+
+    <script src="libraries/colorbox.js"></script>
+    <!-- Flowbite JS -->
+    <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+</body>
+
+</html>
